@@ -11,3 +11,9 @@ datagroup: map_testing_default_datagroup {
 persist_with: map_testing_default_datagroup
 
 explore: ge_2020_ie_constituency_details {}
+
+map_layer: dail {
+  feature_key: "ENGLISH_NA"
+  format: topojson
+  file: "/dail_topojson.json"
+}
