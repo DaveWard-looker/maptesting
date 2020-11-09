@@ -14,6 +14,9 @@ explore: ge_2020_ie_constituency_details {}
 
 map_layer: dail {
   feature_key: "ENGLISH_NA"
+  property_key: "ENGLISH_NA"
+  property_label_key: "NAME"
+  projection: airy
   format: topojson
   file: "/dail_topojson.json"
 }
